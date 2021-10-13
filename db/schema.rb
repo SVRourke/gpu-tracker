@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 2021_10_12_185317) do
   end
 
   create_table "stock_records", force: :cascade do |t|
-    t.boolean "available"
+    t.boolean "available", default: false
     t.integer "merchant_id"
     t.integer "card_id"
     t.datetime "created_at", precision: 6, null: false

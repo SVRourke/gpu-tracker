@@ -1,5 +1,19 @@
-require 'rails_helper'
+  require 'rails_helper'
 
 RSpec.describe Merchant, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe "it is invalid" do
+    it "without a name" do
+      
+    end
+
+    it "without a valid url" do
+      
+    end
+
+    it "if it already exists" do
+      
+    end
+  end
+  pending "has many stockrecords"
+  pending "has many cards"
 end

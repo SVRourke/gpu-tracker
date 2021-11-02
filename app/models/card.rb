@@ -10,3 +10,5 @@ class Card < ApplicationRecord
         return merchants
     end
 end
+
+# brand
